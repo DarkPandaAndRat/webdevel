@@ -1,0 +1,116 @@
+body {
+	font-family: Verdana;
+	}
+
+article {
+	width: 400px;
+}
+
+article figure {
+	width: 400px;
+	border: 3px solid black;
+	padding: 3px;
+}
+
+article header p {
+	background-color: silver;
+	color: yellow;
+}
+
+article figure img {
+	width: 100%;
+}
+
+h1 {
+	color: green;
+	background-color: black;
+}
+	
+.main-news {
+  background-color: LightBlue;
+}
+
+.normal-news {
+  background-color: yellow;
+}
+
+#main-content {
+  background-color: green;
+  color: yellow;
+}
+
+.site-nav {
+  background-color: LightCyan;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  border: 1px solid LightBlue;
+}
+
+.site-nav .site-nav-item {
+  border-bottom: 1px solid LightBlue;
+  padding: 5px;
+}
+
+.site-nav .site-nav-item:last-child {
+  border-bottom: 0;
+}
+
+.site-nav .site-nav-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.site-nav .site-nav-item a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.span {
+  display: block;
+}
+
+.menu-item {
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 3px solid silver;
+}
+
+.main-container {
+  max-width: 980px;
+  margin: auto; 
+}
+
+.site-menu{
+  background-color: LightCyan;
+}
+.site-menu,
+.sidebar {
+  width: 20%;
+}
+
+.main-content{
+  width: 60%;
+  background-color: Bisque;
+}
+
+.site-menu,
+.main-content,
+.sidebar {
+  float: left;
+}
+
+.sidebar {
+  background-color: Gold;
+}
